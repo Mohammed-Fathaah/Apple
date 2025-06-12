@@ -1,0 +1,11 @@
+body {
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+
+.nav_bar{
+    background-color:black;
+    color:black;
+    padding:50px;
+}
