@@ -7,11 +7,43 @@ body {
 .nav_bar{
     background-color:white;
     color:black;
-    height:50px;
+    height:45px;
     width:100%;
-    padding:30px;
+    padding:0px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    
 }
 
 .apple_logo{
     width:20px;
+    padding:5px;
+    margin-left:175px;
+    display:flex:center;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+.nav_options{
+    color:black;
+    display:flex;
+    align-items:center;
+   display:flex;
+   margin-right:900px;
+   gap:30px;
+}
+
+.nav_options li{
+    display:flex;
+}
+
+.search_icon{
+    width:40px;
+    height:35px;
+}
+
+.shop_bag_icon{
+    width:35px;
+    height:30px;
 }
