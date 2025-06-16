@@ -207,10 +207,83 @@ body {
 
 .third_div{
     margin-top:10px;
-    background-color:rgba(233, 230, 230, 0.664);
+    background:linear-gradient(#c9f2ff,#c9f2ff,#d8f3fd,white);
     height:759px;
 }
 
-.macbookair{
-    
+.macbookair_img{
+    display:flex;
+    margin-left:350px;
+    padding:255px;
+}
+
+.macbookair_text{
+    margin-left:770px;
+    top:1600px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:55px;
+    position:absolute;
+}
+
+.macbookair_subtitle{
+    margin-left:845px;
+    top:1690px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:25px;
+    position:absolute;
+}
+
+.macbookair_subtitle2{
+    margin-left:775px;
+    top:1725px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:25px;
+    position:absolute;
+}
+
+.learnmore_button2{
+    position:absolute;
+    width:100px;
+    height:40px;
+    color:white;
+    background-color:hsl(231, 79%, 52%);
+    margin-left:825px;
+    top:1800px;
+    border-radius:999px;
+    box-sizing:border-box;
+    border:20px;
+}
+.learnmore_button2:hover{
+    background-color:hsl(231, 80%, 57%);
+    cursor:pointer;
+}
+
+.buy_button{
+    position:absolute;
+    box-sizing:border-box;
+    border-radius:999px;
+    border:20px;
+    color:hsl(231, 79%, 52%);
+    border-color:hsl(231, 79%, 52%);
+    background-color:white;
+    height:40px;
+    width:100px;
+    top:1800px;
+    margin-left:965px;
+}
+.buy_button:hover{
+    color:white;
+    background-color:hsl(231, 79%, 52%);
+}
+.brand_subtitle3{
+    font-size:larger;
+    background:linear-gradient(#2e8cd8,#2949bd);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    margin-left:850px;
+    position:absolute;
+    top:2200px;
+}
+.gradient2{
+
 }
