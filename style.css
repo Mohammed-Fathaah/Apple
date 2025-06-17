@@ -2,6 +2,7 @@ body {
     padding:0px;
     margin:0px;
     box-sizing:border-box;
+    overflow-x:hidden;
 }
 
 .nav_bar{
@@ -13,7 +14,6 @@ body {
     display:flex;
     align-items:center;
     justify-content:space-between;
-    
 }
 
 
@@ -140,49 +140,50 @@ body {
     margin-top:10px;
     background-color:rgba(233, 230, 230, 0.664);
     height:759px;
+    width:100%;
 }
 
 .iphone_trade_img{
     display:flex;
     justify-content:center;
     padding:0px;
-    width:1910px;
+    width:100%;
     height:759px;
     display:block;
 }
 
 .apple_logo2{
     width:50px;
-    margin-left:775px;
+    margin-left:525px;
     display:flex:center;
     justify-content:center;
-    top:830px;
+    top:835px;
     position:absolute;
 }
 
 .trade_in{
-    margin-left:820px;
-    top:780px;
+    margin-left:575px;
+    top:778px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size:55px;
     position:absolute;
 }
 .trade_in_subtitle{
-    margin-left:750px;
+    margin-left:500px;
     top:875px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size:25px;
     position:absolute;
 }
 .trade_in_subtitle2{
-    margin-left:765px;
+    margin-left:525px;
     top:900px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size:25px;
     position:absolute;
 }
 .trade_in_subtitle3{
-    margin-left:845px;
+    margin-left:55px;
     top:950px;
     color:rgb(114, 114, 114);
     font-size:20px;
@@ -191,16 +192,16 @@ body {
 .get_your_estimate{
     width:125px;
     height:40px;
-    top:1000px;
+    top:975px;
     color:white;
     background-color:hsl(231, 79%, 52%);
-    margin-left:855px;
+    margin-left:600px;
     border-radius:999px;
     box-sizing:border-box;
     border:20px;
     position:absolute;
 }
-.get_your_estimate{
+.get_your_estimate:hover{
     background-color:hsl(231, 80%, 57%);
     cursor:pointer;
 }
@@ -213,12 +214,12 @@ body {
 
 .macbookair_img{
     display:flex;
-    margin-left:350px;
+    margin-left:150px;
     padding:255px;
 }
 
 .macbookair_text{
-    margin-left:770px;
+    margin-left:550px;
     top:1600px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size:55px;
@@ -226,7 +227,7 @@ body {
 }
 
 .macbookair_subtitle{
-    margin-left:845px;
+    margin-left:645px;
     top:1690px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size:25px;
@@ -234,7 +235,7 @@ body {
 }
 
 .macbookair_subtitle2{
-    margin-left:775px;
+    margin-left:545px;
     top:1725px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size:25px;
@@ -247,7 +248,7 @@ body {
     height:40px;
     color:white;
     background-color:hsl(231, 79%, 52%);
-    margin-left:825px;
+    margin-left:600px;
     top:1800px;
     border-radius:999px;
     box-sizing:border-box;
@@ -269,7 +270,7 @@ body {
     height:40px;
     width:100px;
     top:1800px;
-    margin-left:965px;
+    margin-left:725px;
 }
 .buy_button:hover{
     color:white;
@@ -280,10 +281,429 @@ body {
     background:linear-gradient(#2e8cd8,#2949bd);
     -webkit-background-clip:text;
     -webkit-text-fill-color:transparent;
-    margin-left:850px;
+    margin-left:625px;
     position:absolute;
     top:2200px;
 }
-.gradient2{
 
+.container{
+    position:relative;
+    display:flex;
+    flex-direction:row;
+    margin-top:10px;
+    background-color:rgba(233, 230, 230, 0.664);
+    height:759px;
+    width:100%;
+    gap:10px;
 }
+.college_students{
+    flex:1;
+    height:759px;
+}
+.college_students_img{
+    display:flex;
+    justify-content: flex-end;
+    padding-top:250px;
+    position:absolute;
+    width:50%;
+    height:500px;
+}
+.college_students_txt{
+     margin-left:175px;
+    top:10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:40px;
+    position:absolute;
+}
+.college_students_subtitle1{
+     margin-left:250px;
+    top:75px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:25px;
+    position:absolute;
+}
+.college_students_subtitle2{
+     margin-left:230px;
+    top:100px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:25px;
+    position:absolute;
+}
+.learnmore_button3{
+    position:absolute;
+    width:100px;
+    height:40px;
+    color:white;
+    background-color:hsl(231, 79%, 52%);
+    margin-left:275px;
+    top:175px;
+    border-radius:999px;
+    box-sizing:border-box;
+    border:20px;
+}
+.learnmore_button3:hover{
+    background-color:hsl(231, 80%, 57%);
+    cursor:pointer;
+}
+.privacy{
+    flex:1;
+    background-color:black;
+    height:759px;
+}
+.privacy_img{
+     display:flex;
+    justify-content: flex-end;
+    padding-top:250px;
+    position:absolute;
+    width:50%;
+    height:509px;
+}
+.privacy_txt{
+    color:white;
+     margin-left:275px;
+    top:10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:40px;
+    position:absolute;
+}
+.privacy_subtitle1{
+    color:white;
+    margin-left:275px;
+    top:85px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:20px;
+    position:absolute;
+}
+.learnmore_button4{
+    position:absolute;
+    width:100px;
+    height:40px;
+    color:white;
+    background-color:hsl(231, 79%, 52%);
+    margin-left:295px;
+    top:155px;
+    border-radius:999px;
+    box-sizing:border-box;
+    border:20px;
+}
+.learnmore_button4:hover{
+    background-color:hsl(231, 80%, 57%);
+    cursor:pointer;
+}
+
+.container2{
+    position:relative;
+    display:flex;
+    flex-direction:row;
+    margin-top:10px;
+    background-color:rgba(233, 230, 230, 0.664);
+    height:759px;
+    width:100%;
+    gap:10px;
+}
+.ipad_air{
+     flex:1;
+    height:759px;
+    background:linear-gradient(#c9f2ff,#c9f2ff,#d8f3fd,white);
+}
+.ipad_air_img{
+    display:flex;
+    justify-content: flex-end;
+    padding-top:250px;
+    position:absolute;
+    width:50%;
+    height:500px;
+}
+.ipad_air_txt{
+     margin-left:275px;
+    top:10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:35px;
+    position:absolute;
+}
+.air{
+    color:rgb(0, 89, 255);
+    font-style:italic;
+}
+.ipad_subtitle1{
+    margin-left:200px;
+    top:65px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:20px;
+    position:absolute;
+}
+.learnmore_button5{
+    position:absolute;
+    top:125px;
+    width:100px;
+    height:40px;
+    color:white;
+    background-color:hsl(231, 79%, 52%);
+    margin-left:245px;
+    border-radius:999px;
+    box-sizing:border-box;
+    border:20px;
+}
+.learnmore_button5:hover{
+    background-color:hsl(231, 80%, 57%);
+    cursor:pointer;
+}
+.buy_button2{
+    position:absolute;
+    top:125px;
+    box-sizing:border-box;
+    border-radius:999px;
+    border:20px;
+    color:hsl(231, 79%, 52%);
+    border-color:hsl(231, 79%, 52%);
+    background-color:white;
+    height:40px;
+    width:100px;
+    margin-left:355px;
+}
+.buy_button2:hover{
+    color:white;
+    background-color:hsl(231, 79%, 52%);
+}
+.ipad_subtitle2{
+    position:absolute;
+    top:715px;
+    font-size:larger;
+    background:linear-gradient(#2e8cd8,#2949bd);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    margin-left:185px;
+}
+.gradient2{
+    font-size:larger;
+    background:linear-gradient(#9025be,#be2550,#d8122e,#ec5d24,#ecb024);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.watches{
+     flex:1;
+    height:759px;
+    background-color:rgba(233, 230, 230, 0.664);
+}
+.watches_img{
+    display:flex;
+    justify-content: flex-end;
+    padding-top:250px;
+    position:absolute;
+    width:50%;
+    height:509px;
+}
+.apple_logo4{
+    width:50px;
+    margin-left:275px;
+    display:flex:center;
+    justify-content:center;
+    top:45px;
+    position:absolute;
+}
+.watch_txt{
+     margin-left:325px;
+    top:5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:45px;
+    position:absolute;
+}
+.series10{
+    margin-left:355px;
+    top:95px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:15px;
+    position:absolute;
+}
+.thinstant_classic{
+    margin-left:315px;
+    top:115px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:20px;
+    position:absolute;
+}
+.learnmore_button6{
+     position:absolute;
+    width:100px;
+    height:40px;
+    color:white;
+    background-color:hsl(231, 79%, 52%);
+    margin-left:295px;
+    top:175px;
+    border-radius:999px;
+    box-sizing:border-box;
+    border:20px;
+}
+.learnmore_button6:hover{
+    background-color:hsl(231, 80%, 57%);
+    cursor:pointer;
+}
+.buy_button3{
+     position:absolute;
+    top:175px;
+    box-sizing:border-box;
+    border-radius:999px;
+    border:20px;
+    color:hsl(231, 79%, 52%);
+    border-color:hsl(231, 79%, 52%);
+    background-color:white;
+    height:40px;
+    width:100px;
+    margin-left:410px;
+}
+.buy_button3:hover{
+    color:white;
+    background-color:hsl(231, 79%, 52%);
+}
+
+.container3{
+     position:relative;
+    display:flex;
+    flex-direction:row;
+    margin-top:10px;
+    background-color:rgba(233, 230, 230, 0.664);
+    height:759px;
+    width:100%;
+    gap:10px;
+}
+.airpods_pro{
+    flex:1;
+    height:759px;
+    background-color:black;
+}
+.airpods_img{
+    display:flex;
+    justify-content: flex-end;
+    padding-top:250px;
+    position:absolute;
+    width:50%;
+    height:500px;
+}
+.airpods_pro_txt{
+    color:white;
+    margin-left:145px;
+    top:565px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:45px;
+    position:absolute;
+}
+.airpods_pro_subtitle1{
+    margin-left:140px;
+    top:640px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:20px;
+    position:absolute;
+    color:white;
+}
+.learnmore_button7{
+     position:absolute;
+    width:100px;
+    height:40px;
+    color:white;
+    background-color:hsl(231, 79%, 52%);
+    margin-left:195px;
+    top:700px;
+    border-radius:999px;
+    box-sizing:border-box;
+    border:20px;
+}
+.learnmore_button7:hover{
+    background-color:hsl(231, 80%, 57%);
+    cursor:pointer;
+}
+.buy_button4{
+     position:absolute;
+    top:700px;
+    box-sizing:border-box;
+    border-radius:999px;
+    border:20px;
+    color:hsl(231, 79%, 52%);
+    border-color:hsl(231, 79%, 52%);
+    background-color:white;
+    height:40px;
+    width:100px;
+    margin-left:315px;
+}
+.buy_button4:hover{
+    color:white;
+    background-color:hsl(231, 79%, 52%);
+}
+
+.card{
+     flex:1;
+    background-color:white;
+    height:759px;
+}
+.card_img{
+    display:flex;
+    justify-content: flex-end;
+    padding-top:250px;
+    position:absolute;
+    width:50%;
+    height:509px;
+}
+.apple_logo5{
+    width:50px;
+    margin-left:275px;
+    display:flex:center;
+    justify-content:center;
+    top:47px;
+    position:absolute;
+}
+.card_txt{
+    margin-left:325px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:50px;
+    position:absolute;
+}
+.card_subtitle1{
+    margin-left:235px;
+    top:80px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:20px;
+    position:absolute;
+    color:black;
+}
+.card_subtitle2{
+    margin-left:275px;
+    top:100px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:20px;
+    position:absolute;
+    color:black;
+}
+.learnmore_button8{
+     position:absolute;
+    width:100px;
+    height:40px;
+    color:white;
+    background-color:hsl(231, 79%, 52%);
+    margin-left:245px;
+    top:165px;
+    border-radius:999px;
+    box-sizing:border-box;
+    border:20px;
+}
+.learnmore_button8:hover{
+    background-color:hsl(231, 80%, 57%);
+    cursor:pointer;
+}
+.apply_now{
+     position:absolute;
+    top:165px;
+    box-sizing:border-box;
+    border-radius:999px;
+    border:20px;
+    color:hsl(231, 79%, 52%);
+    border-color:hsl(231, 79%, 52%);
+    background-color::rgba(233, 230, 230, 0.664);
+    height:40px;
+    width:100px;
+    margin-left:355px;
+}
+.apply_now:hover{
+    color:white;
+    background-color:hsl(231, 79%, 52%);
+}
+
